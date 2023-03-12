@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(148, 140, 23, 0.192) 0px 50px 100px -20px,  rgba(116, 255, 2, 0.979) 0px -2px 6px 0px inset;;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.card-header {
+    text-align: center;
+}
+.card-header img {
+    width: 300px;
+}
+
+p {
+    margin:0 
+}
+
+p span {
+    font-size: 110%;
+    color: #09dae9;
+}
